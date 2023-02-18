@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Ishtiaq Hossen</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- google font -->
+     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+   
+
+
+    </head>
+ <body >
+  
+    <!--====================navbar starts here ======================-->
+  <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">CSE216 Project</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://www.iub.edu.bd/">University</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Go to
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">About Project</a>
+                  <a class="dropdown-item" href="#">Photos</a>
+                  <a class="dropdown-item" href="#">Videos</a>
+                  <a class="dropdown-item" href="#">Equipments</a>
+                  <a class="dropdown-item" href="#card">Members</a>
+
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Resources</a> <!--to enable cut the "disabled"-->
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+  </header>
+  <!--====================navbar ends here ======================-->
+  
+
+  <!--====================carousel starts here ======================-->
+  
+  <div id="carouselExampleIndicators" class="container carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="https://www.shutterstock.com/image-photo/project-manager-working-update-tasks-260nw-1756612595.jpg" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Picture 1</h5>
+          <p>bla bla============bla lbla</p>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="data:image/jpeg;base64,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" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/6jWnvI2Vnw2GbGUP7unZg/8362d2380cf820bec335f783b635abe8/Business-professionals-discussing-over-a-graph-1127726411_8477x5651.jpeg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000&h=" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/01/17/15/24/network-1987209__340.jpg" alt="Fourth-slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  
+  <br><br>
+  <!--====================carousel ends here ======================-->
+
+
+  <!--=================table code starts here===============-->
+  
+  <table class="container table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Serial</th>
+        <th scope="col">Product name</th>
+        <th scope="col">Information</th>
+        <th scope="col">Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Larry</td>
+        <td>the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+  <br><br>
+
+  <!--======================table code ends here============-->
+  <br>
+  <!--======================picture contents starts here============-->
+  <div class="container">
+    <div class="jumbotron">
+      <h1>The Image Gallery</h1>
+      <p>A bunch of beautiful images of our project</p>
+    </div>
+    <div class="row  justify-content-center ">
+      <div class="col-12 col-md-4 col-sm-6">
+        <div class="thumbnail"></div>
+        <img src="image/ishti.jpg">
+      </div>
+      <div class="col-12 col-md-4 col-sm-6">
+        <div class="thumbnail"></div>
+        <img src="image/IMG9180JPG300x300.jpg">
+      </div>
+      <div class="col-12 col-md-4 col-sm-6">
+        <div class="thumbnail"></div>
+        <img src="image/IMG9180JPG300x300.jpg">
+      </div>
+      <div class="col-12 col-md-4 col-sm-6">
+        <div class="thumbnail"></div>
+        <img src="">
+      </div>
+    </div>
+  </div>
+
+  <!--======================picture cotents ends here============-->
+  <br>
+  <!--============card code starts here=============-->
+  
+
+  <div class="container bg-dark text-light " id="card">
+    <div class="row justify-content-center">
+        <b><h3>Team_MOSFET</h3></b>
+    </div>
+  </div>
+  <br>
+
+
+  <div class="container" id="card">
+    <div class="row justify-content-center bg-dark.bg-gradient">
+      
+        <div class="col-auto">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="image/ishti.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Ishtiaq Hossen</h5>
+              <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">ID: 1921532</li>
+              <li class="list-group-item">Independent University Bangladesh</li>
+              <li class="list-group-item">1921532@iub.edu.bd</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Social Media</a>
+              <a href="#" class="card-link">Website</a>
+            </div>          
+          </div>
+        </div>
+        
+        <div class="col-auto">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="image/akash.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Akash Zaman</h5>
+              <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">ID: 1810665</li>
+              <li class="list-group-item">Independent University Bangladesh</li>
+              <li class="list-group-item">1810665@iub.edu.bd</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Social Media</a>
+              <a href="#" class="card-link">Website</a>
+            </div>          
+          </div>
+        </div>
+
+        <div class="col-auto">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="image/IMG9180JPG300x300.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Nazib Rahman</h5>
+              <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">1811129</li>
+              <li class="list-group-item">Independent University Bangladesh</li>
+              <li class="list-group-item">1811129@iub.edu.bd</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Social Media</a>
+              <a href="#" class="card-link">Website</a>
+            </div>          
+          </div>
+        </div>
+
+        <div class="col-auto">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://www.officetimer.com/wp-content/uploads/2017/06/project.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Independent University Bangladesh</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>          
+          </div>
+        </div>
+
+        <div class="col-auto">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://www.officetimer.com/wp-content/uploads/2017/06/project.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Independent University Bangladesh</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>          
+          </div>
+        </div>
+
+        <div class="col-auto">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://www.officetimer.com/wp-content/uploads/2017/06/project.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Independent University Bangladesh</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>          
+          </div>
+        </div>
+
+   </div>
+  </div>
+
+  <!--============card code starts here=============-->
+<br>
+<!-- jkdsssssssssssssssssssssssssss -->
+<div class="container text-center text-white" style="background-color: #45637d;">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Iframe -->
+    <section class="">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-6">
+          <div class="ratio ratio-16x9">
+            <iframe
+              class="shadow-1-strong rounded"
+              src="https://www.youtube.com/embed/vlDzYIIOYmM"
+              title="YouTube video"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    
+  </div>
+  <!-- Grid container -->
+</div>>
+  
+
+ <footer class="container ">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright: Ishtiaq Hossen
+    <!-- <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a> -->
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+ </body>
+</html>
